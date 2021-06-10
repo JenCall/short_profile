@@ -1,0 +1,132 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;500&family=Open+Sans:wght@300&display=swap');
+
+
+/*font-family: 'Inconsolata', monospace;
+font-family: 'Open Sans', sans-serif; not used*/
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(10, 10, 10);
+  background-color: #dfeeea;
+
+}
+
+h1, h2 {
+  font-family: 'Inconsolata', monospace;
+}
+
+h1 {
+  color: #125d98;
+}
+
+h2 {
+  color: #30e3ca; /*f5a962*/
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #2688D2;
+}
+
+a:hover {
+  color: #1B6295;
+}
+
+div {
+  background-color: white;
+  padding: 24px;
+  margin: 16px;
+}
+
+.card-white {
+  background-color: white;
+  padding: 24px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  width: 500px;
+  margin: 24px auto;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.card-white-description {
+  background-color: white;
+  padding: 24px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  width: 500px;
+  margin: 24px auto;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.img-circle {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.btn-blue {
+  background-color: #caf7e3;
+  color: #03256c;
+  font-size: bold;
+  padding: 8px 24px;
+  border-radius: 8px;
+}
+
+.btn-white {
+  background-color: white;
+  color: #03256c;
+  font-size: bold;
+  padding: 8px 24px;
+  border-radius: 8px;
+}
+
+.btn-blue:hover {
+  background-color: #144567;
+  color: white;
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0;
+}
+
+.list-inline li {
+  display: inline-block;
+}
+
+.social-icon {
+  font-size: 32px;
+  color: #dbe6fd;
+  margin: 8px 8px;
+}
+
+.social-icon:hover {
+  color: #47597e;
+}
+
+
+
+
+
